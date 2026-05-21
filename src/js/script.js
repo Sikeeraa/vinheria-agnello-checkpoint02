@@ -61,7 +61,7 @@ function mostrarDados(nome, tipo, safra, quantidade, classificacao) {
         alert("ATENÇÃO: Estoque baixo do vinho " + nome);
     }
 }
-
+ 
 botaocadastro.addEventListener("click", function () {
  
     let continuar = true;
@@ -122,9 +122,22 @@ botaocadastro.addEventListener("click", function () {
         "\nSafra mais antiga: " + safraMaisAntiga
     );
 });
-
-
-
-botaoSobre.addEventListener ("click", function () {
-    alert("A Vinharia Agnello é um sistema de cadastro de vinhos que permite registrar informações, controlar o estoque e classificar automaticamente cada vinho de acordo com a sua safra, oferecendo uma gestão prática e organizada.")
-});
+ 
+ 
+ 
+function mostrarVinho1() {
+    alert(
+        "Aice di Tmesco\n\n" +
+        "Vinho originário da Itália.\n" +
+        "Possui sabor suave com notas de frutas tropicais."
+    );
+}
+ 
+function mostrarVinho2() {
+    alert(
+        "Viales di Denrs\n\n" +
+        "Vinho produzido em Mendoza, na Argentina.\n" +
+        "Possui sabor intenso e encorpado."
+    );
+}
+ 

@@ -3,193 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ 
     <!-- FONTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+ 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+ 
     <!-- CSS -->
     <link rel="stylesheet" href="./src/css/estilo.css">
-
+ 
     <title>Vinharia Agnello</title>
 </head>
-
+ 
 <body>
-
+ 
 <!-- HEADER -->
-
+ 
 <header>
-
+ 
     <img src="./src/assets/logo.png" id="logo" alt="logo">
-
+ 
     <div class="textosheader">
         <h1>Vinharia Agnello</h1>
         <p>Os melhores vinhos para os melhores gostos</p>
     </div>
-
+ 
     <nav>
         <ul>
             <li id="cadastro">
                 <a href="#">Cadastrar vinho</a>
             </li>
-
+ 
             <li id="sobre">
                 <a href="#">Sobre o projeto</a>
             </li>
         </ul>
     </nav>
-
+ 
 </header>
-
+ 
 <!-- MAIN -->
-
+ 
 <main>
-
+ 
+    <!-- VINHOS EM DESTAQUE -->
+ 
+    <section class="destaques">
+ 
+        <h2>Vinhos em Destaque</h2>
+ 
+        <div class="destaque-container">
+ 
+            <div class="destaque-card">
+                <img src="./src/assets/vinho_3.png" alt="vinho destaque 1">
+ 
+                <div class="destaque-texto">
+                    <h3>Aice di Tmesco</h3>
+ 
+                    <p>
+                        Um vinho sofisticado com notas tropicais e acabamento suave.
+                    </p>
+ 
+                    <button onclick="mostrarVinho1()">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+ 
+            <div class="destaque-card">
+                <img src="./src/assets/vinho_7.png" alt="vinho destaque 2">
+ 
+                <div class="destaque-texto">
+                    <h3>Viales di Denrs</h3>
+ 
+                    <p>
+                        Intenso, encorpado e marcante, direto dos vinhedos de Mendoza.
+                    </p>
+ 
+                    <button onclick="mostrarVinho2()">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+ 
+        </div>
+ 
+    </section>
+ 
     <!-- LINHA 1 -->
-
+ 
     <div class="container">
-
+ 
         <div class="card">
             <h3>Oerto Rose</h3>
-
+ 
             <img src="./src/assets/vinho_1.png" alt="vinho1">
-
+ 
             <p>
                 Um rosé leve, uma ótima opção para noites tranquilas e relaxantes.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Platida oc Quarie</h3>
-
+ 
             <img src="./src/assets/vinho_2.png" alt="vinho2">
-
+ 
             <p>
                 Inspirado na cor brilhante do quartzo.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Aice di Tmesco</h3>
-
+ 
             <img src="./src/assets/vinho_3.png" alt="vinho3">
-
+ 
             <p>
                 Um vinho com notas de baunilha e frutas tropicais.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Noturacas Araos</h3>
-
+ 
             <img src="./src/assets/vinho_4.png" alt="vinho4">
-
+ 
             <p>
                 Acidez vibrante, rejuvenescedor e vivo.
             </p>
         </div>
-
+ 
     </div>
-
+ 
     <!-- LINHA 2 -->
-
+ 
     <div class="container">
-
+ 
         <div class="card">
             <h3>Legadet di Samgue</h3>
-
+ 
             <img src="./src/assets/vinho_5 (2).png" alt="vinho5">
-
+ 
             <p>
                 Um tinto seco potente, envelhecido em carvalho.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Alanionia Velna</h3>
-
+ 
             <img src="./src/assets/vinho_6.png" alt="vinho6">
-
+ 
             <p>
                 Uma combinação secreta de uvas tintas secas de safra única.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Viales di Denrs</h3>
-
+ 
             <img src="./src/assets/vinho_7.png" alt="vinho7">
-
+ 
             <p>
                 Tradicional da região de Mendoza, intenso e com cor violeta profunda.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Terrale lo Conardo</h3>
-
+ 
             <img src="./src/assets/vinho_8.png" alt="vinho8">
-
+ 
             <p>
                 Um argentino robusto, com notas de especiarias e pimenta-preta.
             </p>
         </div>
-
+ 
     </div>
-
+ 
     <!-- LINHA 3 -->
-
+ 
     <div class="container">
-
+ 
         <div class="card">
             <h3>Terrale al Gordvia</h3>
-
+ 
             <img src="./src/assets/vinho_9.png" alt="vinho9">
-
+ 
             <p>
                 Elegante, complexo e com a alma dos vinhedos de altitude.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Boauviris do Soul</h3>
-
+ 
             <img src="./src/assets/vinho_10.png" alt="vinho10">
-
+ 
             <p>
                 Um abraço direto dos Alpes Suíços, macio e muito frutado.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Pinot Noir</h3>
-
+ 
             <img src="./src/assets/vinho_11.png" alt="vinho11">
-
+ 
             <p>
                 Produzido no extremo sul do Brasil, um vinho potente e de muita personalidade.
             </p>
         </div>
-
+ 
         <div class="card">
             <h3>Terroir da Campanha Tannat</h3>
-
+ 
             <img src="./src/assets/vinho_12.png" alt="vinho12">
-
+ 
             <p>
                 Um tinto brasileiro leve, sofisticado e de aroma complexo.
             </p>
         </div>
-
+ 
     </div>
-
+ 
 </main>
+ 
 <footer>
-        <p>&copy;- 2026 -Direitos Reservados</p>
+    <p>&copy; - 2026 - Direitos Reservados</p>
 </footer>
+ 
 <script src="./src/js/script.js"></script>
-
+ 
 </body>
 </html>
+ 
