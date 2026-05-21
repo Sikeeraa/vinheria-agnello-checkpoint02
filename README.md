@@ -117,8 +117,8 @@ Caso o estoque esteja baixo, um alerta é exibido ao usuário.
   Relatório Final
  
 Ao final dos cadastros, o sistema apresenta um relatório contendo:
- 
-- Quantidade total de vinhos cadastrados
+
+ - Quantidade total de vinhos cadastrados
 
 - Informações dos rótulos
 
