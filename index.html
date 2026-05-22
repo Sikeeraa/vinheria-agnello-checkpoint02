@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./src/css/estilo.css">
 
     <title>Vinharia Agnello</title>
+    <link rel="icon" type="image/png" href="./src/assets/icone.png">
+
 </head>
 
 <body>
@@ -47,6 +49,58 @@
 
 <main>
 
+    <!-- VINHOS EM DESTAQUE -->
+
+    <section class="destaques">
+
+        <h2>Vinhos em Destaque</h2>
+
+        <div class="destaque-container">
+
+            <div class="destaque-card">
+                <img src="./src/assets/vinho_3.png" alt="vinho destaque 1">
+
+                <div class="destaque-texto">
+                    <h3>Aice di Tmesco</h3>
+
+                    <p>
+                        Um vinho sofisticado com notas tropicais e acabamento suave.
+                    </p>
+
+                    <div class="preco">R$ 149,90</div>
+
+                    <br><br>
+
+                    <button onclick="mostrarVinho1()">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="destaque-card">
+                <img src="./src/assets/vinho_7.png" alt="vinho destaque 2">
+
+                <div class="destaque-texto">
+                    <h3>Viales di Denrs</h3>
+
+                    <p>
+                        Intenso, encorpado e marcante, direto dos vinhedos de Mendoza.
+                    </p>
+
+                    <div class="preco">R$ 209,90</div>
+
+                    <br><br>
+
+                    <button onclick="mostrarVinho2()">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
     <!-- LINHA 1 -->
 
     <div class="container">
@@ -59,6 +113,8 @@
             <p>
                 Um rosé leve, uma ótima opção para noites tranquilas e relaxantes.
             </p>
+
+            <div class="preco">R$ 89,90</div>
         </div>
 
         <div class="card">
@@ -69,6 +125,8 @@
             <p>
                 Inspirado na cor brilhante do quartzo.
             </p>
+
+            <div class="preco">R$ 119,90</div>
         </div>
 
         <div class="card">
@@ -79,6 +137,8 @@
             <p>
                 Um vinho com notas de baunilha e frutas tropicais.
             </p>
+
+            <div class="preco">R$ 149,90</div>
         </div>
 
         <div class="card">
@@ -89,6 +149,8 @@
             <p>
                 Acidez vibrante, rejuvenescedor e vivo.
             </p>
+
+            <div class="preco">R$ 99,90</div>
         </div>
 
     </div>
@@ -105,6 +167,8 @@
             <p>
                 Um tinto seco potente, envelhecido em carvalho.
             </p>
+
+            <div class="preco">R$ 189,90</div>
         </div>
 
         <div class="card">
@@ -115,6 +179,8 @@
             <p>
                 Uma combinação secreta de uvas tintas secas de safra única.
             </p>
+
+            <div class="preco">R$ 159,90</div>
         </div>
 
         <div class="card">
@@ -125,6 +191,8 @@
             <p>
                 Tradicional da região de Mendoza, intenso e com cor violeta profunda.
             </p>
+
+            <div class="preco">R$ 209,90</div>
         </div>
 
         <div class="card">
@@ -135,6 +203,8 @@
             <p>
                 Um argentino robusto, com notas de especiarias e pimenta-preta.
             </p>
+
+            <div class="preco">R$ 179,90</div>
         </div>
 
     </div>
@@ -151,6 +221,8 @@
             <p>
                 Elegante, complexo e com a alma dos vinhedos de altitude.
             </p>
+
+            <div class="preco">R$ 239,90</div>
         </div>
 
         <div class="card">
@@ -161,6 +233,8 @@
             <p>
                 Um abraço direto dos Alpes Suíços, macio e muito frutado.
             </p>
+
+            <div class="preco">R$ 169,90</div>
         </div>
 
         <div class="card">
@@ -171,6 +245,8 @@
             <p>
                 Produzido no extremo sul do Brasil, um vinho potente e de muita personalidade.
             </p>
+
+            <div class="preco">R$ 129,90</div>
         </div>
 
         <div class="card">
@@ -181,11 +257,89 @@
             <p>
                 Um tinto brasileiro leve, sofisticado e de aroma complexo.
             </p>
+
+            <div class="preco">R$ 139,90</div>
         </div>
 
     </div>
 
+    <!-- KITS ESPECIAIS -->
+
+    <section class="kits">
+
+        <h2>Kits Especiais</h2>
+
+        <div class="kits-container">
+
+            <div class="kit-card">
+
+                <img src="./src/assets/Kit_vinho1.png" alt="Kit Degustação Premium">
+
+                <div class="kit-texto">
+
+                    <h3>Kit Degustação Premium</h3>
+
+                    <p>
+                        Uma seleção exclusiva com 3 vinhos premium para experiências sofisticadas.
+                    </p>
+
+                    <div class="preco">
+                        R$ 349,90
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="kit-card">
+
+                <img src="./src/assets/Kit_vinhos2.png" alt="Kit Noite Romântica">
+
+                <div class="kit-texto">
+
+                    <h3>Kit Noite Romântica</h3>
+
+                    <p>
+                        Combinação perfeita de vinhos suaves para momentos especiais.
+                    </p>
+
+                    <div class="preco">
+                        R$ 279,90
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="kit-card">
+
+                <img src="./src/assets/Kit_vinho3.png" alt="Kit Adega Reserva">
+
+                <div class="kit-texto">
+
+                    <h3>Kit Adega Reserva</h3>
+
+                    <p>
+                        Vinhos selecionados com envelhecimento especial e sabor intenso.
+                    </p>
+
+                    <div class="preco">
+                        R$ 499,90
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
 </main>
+
+<footer>
+    <p>&copy; - 2026 - Direitos Reservados</p>
+</footer>
 
 <script src="./src/js/script.js"></script>
 
